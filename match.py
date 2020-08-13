@@ -10,9 +10,9 @@ def main():
   print("Your data is checked.")
 def check_data(min_val,max_val):
   if min_val<10:
-    print("The minimum value is:",a)
+    print("The minimum value is:",min_val)
   if max_val>40:
-    print("The maximum value is:",b)
+    print("The maximum value is:",max_val)
 
 main()
-
+check_data(7,90)
