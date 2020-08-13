@@ -17,4 +17,6 @@ def check_executed():
   return check_data(7,90)
 
 main()
+check_executed()
+
 
