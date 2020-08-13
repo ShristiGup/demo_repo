@@ -13,6 +13,8 @@ def check_data(min_val,max_val):
     print("The minimum value is:",min_val)
   if max_val>40:
     print("The maximum value is:",max_val)
+def check_executed():
+  return check_data(7,90)
 
 main()
-check_data(7,90)
+
