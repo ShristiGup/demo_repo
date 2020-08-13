@@ -1,9 +1,4 @@
-import sqlite3
-Mydb = sqlite3.connect('FantasyCricket.db')
-cur = Mydb.cursor()
-sql="CREATE TABLE stats(player TEXT,matches INTEGER,runs INTEGER,'100s' INTEGER,'50s' INTEGER,value INTEGER,ctg TEXT);"
-cur.execute(sql)
-Mydb.close()
+import math
 
 def main():
   print("The program has begin its execution...")
@@ -15,8 +10,10 @@ def check_data(min_val,max_val):
     print("The maximum value is:",max_val)
 def check_executed():
   return check_data(7,90)
+def sq_rt(n):
+  return math.sqrt(n)
 
 main()
 check_executed()
-
+print(sq_rt(64))
 
