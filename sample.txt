@@ -1,2 +1,3 @@
 I am adding one line of text here.
-I am adding one more line.
+
+This file contains the sample text that will be used for later purposes.
